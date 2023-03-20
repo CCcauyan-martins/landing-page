@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 100vh;
+    min-width: 441px;
+}
+
+/*HEADER-AREA*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 3em;
+}
+
+.nav-link {
+    font-size: 1em;
+    color: #b8b8b8;
+}
+
+.nav-link:hover {
+    color: #17e900;
+}
+
+
+.m-button, .c-button {
+    padding: 5px 30px;
+    border-radius: 40px;
+    border: 0.1px solid #b8b7b7;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-button {
+    margin-right: 0.8em;
+    background-color: #fff;
+    color: #17e900;
+}
+
+.login-button:hover {
+    background-color: #17e900;
+    color: #fff;
+}
+
+.sing-button {
+    background-color: #17e900;
+    color: #fff;
+}
+
+.sing-button:hover {
+    background-color: #fff;
+    color: #17e900;
+}
+
+.toggle-button {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.toggle-button:hover {
+    color: #17e900;
+}
+
+
+/*HEADER-AREA*/
+
+/*CONTENT-AREA*/
+
+.content-area {
+    padding: 0 4em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.texts h3 {
+    color: #17e900;
+    font-weight: 800;
+}
+
+.texts h1 {
+    font-size: 5.2em;
+    line-height: 1em;
+    margin: 0.2em 0;
+}
+
+.texts p {
+    margin: 1em 0;
+}
+
+.buttons-area {
+    margin: 2em 0;
+}
+
+.get-start {
+    margin-right: 0.9em;
+    color: #fff;
+    background-color: #17e900;
+}
+
+.get-start:hover {
+    background-color: #fff;
+    color: #17e900;
+}
+
+.learn-more {
+    color: #17e900;
+    background-color: #fff;
+}
+
+.learn-more:hover {
+    color: #fff;
+    background-color: #17e900;
+}
+
+
+
+
+/*CONTENT-AREA*/
